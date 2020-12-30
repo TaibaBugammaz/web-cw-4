@@ -1,13 +1,26 @@
+
+
 body {
   /* المطلوب الأول هنا */
+  font-family: cairo;
+  background-image: url("./img/KuwaitCodesWallpaper.png") ;
   text-align: center;
   background-size: cover;
 }
 
 /* المطلوب الثاني هنا */
 nav {
+
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  opacity: 0.9;
+
 }
 .nav-elements {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
 }
 
 .card {
@@ -15,6 +28,9 @@ nav {
   width: 400px;
   height: 500px;
   background-color: white;
+  box-shadow: black 5px 10px 18px; 
+  border-radius: 12px;
+  
 }
 
 img {
@@ -22,10 +38,27 @@ img {
   width: 120px;
   height: 120px;
   margin-top: 20px;
+  box-shadow: black 10px 10px 18px; 
+  border-radius: 50%;
 }
 
 .hobbies {
   /* المطلوب السادس هنا */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+}
+
+.one:hover{
+  transform: translate(0px, -100px);
+}
+
+.two:hover{
+  transform: translate(0px, -100px);
+}
+
+.three:hover{
+  transform: translate(0px, -100px);
 }
 
 .center {
@@ -42,3 +75,5 @@ a {
   text-decoration: none;
   color: black;
 }
+
+
